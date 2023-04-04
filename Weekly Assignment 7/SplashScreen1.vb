@@ -12,7 +12,7 @@
 
         'Application title
         If My.Application.Info.Title <> "" Then
-            ApplicationTitle.Text = My.Application.Info.Title
+            ApplicationTitle.Text = "Karaoke Music"
         Else
             'If the application title is missing, use the application name, without the extension
             ApplicationTitle.Text = System.IO.Path.GetFileNameWithoutExtension(My.Application.Info.AssemblyName)
@@ -29,7 +29,7 @@
         Version.Text = System.String.Format(Version.Text, My.Application.Info.Version.Major, My.Application.Info.Version.Minor)
 
         'Copyright info
-        Copyright.Text = My.Application.Info.Copyright
+        Copyright.Text = "Copyright © 2019"
     End Sub
 
 End Class
