@@ -95,8 +95,3 @@ Public Class Form1
 End Class
 
 
-'lblHours.Visible = False
-'txtHours.Visible = False
-'btnTotalCost.Visible = False
-'btnClearForm.Visible = False
-'lblTotal.Visible = False
